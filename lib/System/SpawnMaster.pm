@@ -15,6 +15,9 @@ use System::SpawnMaster::Supervisor;
 use System::SpawnMaster::Master;
 use System::SpawnMaster::Worker;
 use System::SpawnMaster::Runner;
+use System::SpawnMaster::Utils;
+
+our $VERSION = 0.01;
 
 
 sub new {
